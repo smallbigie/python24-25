@@ -16,19 +16,19 @@ else:
 
     # More code goes here
     if first > second:
-    highest = first
-    lowest = second
-else:
-    highest = second
-    lowest = first 
+        highest = first
+        lowest = second
+    else:
+        highest = second
+        lowest = first 
 
     #Final state of the program
     print("The HIGHEST number is: ", highest)
     print("The LOWEST number is: ", lowest)
 
- print("\n\nPart 3 of the Application: \n\n")
- print("Logigical Operators and Commpound Boolean Expressions")
- print("_____________________________________________________\n\n")
+    print("\n\nPart 3 of the Application: \n\n")
+    print("Logigical Operators and Commpound Boolean Expressions")
+    print("_____________________________________________________\n\n")
 
 number = int(input("Enter the students numeric grade: "))
 # if number > 100:
